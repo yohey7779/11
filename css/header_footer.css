@@ -1,0 +1,21 @@
+@charset "utf-8";
+
+/* Total Layout */
+main{width: Calc(100vw-150px); height: 100%;}
+
+/* header */
+#header{position: fixed; left: 0; z-index: 100; width: 150px; height: 100vh; font-family: 'Oswald', sans-serif; background: white;}
+#header h1{text-align: center;}
+#header h1 img{width: 110px; height: auto; margin-top: 20px;}
+#gnb{position: absolute; bottom: 35%; left: -215px; transform: rotate(-90deg); width: 600px;}
+#gnb li{float: right; display: inline-block; margin: 0 10px;}
+#gnb li a{padding: 5px 10px; color: #777; letter-spacing: 1.5px; text-align: center;}
+#gnb li a:after{content: ''; display: block; width: 0; height: 2px; margin-top: 8px; background: #3535af; transition: all 0.3s;}
+#gnb li a:hover, #gnb li a:focus{color: #000;}
+#gnb li a:hover:after{width: 100%;}
+
+/* footer */
+footer{position: fixed; bottom: 110px; right: -50px; transform: translateX(-50%); transform: rotate(90deg);}
+footer p{margin-right: 110px; font-size: 14px; letter-spacing: 1.4px; color: #555;}
+footer p:after{position: absolute; top: 50%; right: 0; content: ""; width: 90px; height: 1px; background: #555;}
+footer span{letter-spacing: 4px;}

@@ -1,0 +1,77 @@
+퍼블리싱 가이드
+
+h1 - 로고
+h2 - 페이지 타이틀
+h3 - 서브페이지 타이틀
+h4 - 콘텐츠 타이틀
+
+head 기입 순서
+meta 태그 - link 태그 - script 태그 - title
+
+
+
+
+
+
+CSS 작성 순서
+Total Layout - header의 공통 속성 및 효과 - header - main의 공통 속성 및 효과 - main - footer의 공통 속성 및 효과 - footer - 부가적인 디자인 요소에 대한 효과
+
+
+CSS 속성 작성 순서
+레이아웃에 영향을 미치는 요소
+position - top / bottom / left / right - transform(translate)
+float
+content - display - clear
+z-index
+width - height - margin - padding
+
+디자인 관련 CSS
+opacity
+background 
+font family -  font size - color - font weight - letter spacing -line height -text align - vertical align - text transform - text decoration -  transform
+border - border radius
+svg 관련 설정
+transition(transition)
+
+
+
+
+임시
+<!--<section class="full work03">
+                <div class="inner">
+                    <div class="pic">
+                        <img src="img/main_portfolio_lifeplus.png" alt="LifePlus 이미지">
+                    </div>
+                    <div class="info">
+                        <h4>LifePlus<span>라이프플러스</span></h4>
+                        <ul>
+                            <li>PERIOD<p>2019. 5.</p></li>
+                            <li>WORK<p>PUBLISHING</p></li>
+                            <li>TOOL</li>
+                            <ul class="icon_tool">
+                                <li><img src="img/icon_coding.png" alt="브라켓 아이콘"></li>
+                            </ul>
+                            <li>VIEWPORT<p>PC / TABLET / MOBILE</p></li>
+                            <ul class="btn_more">
+                               <li>
+                                    <a href="javascript;:" class="img_more">
+                                        <span>VIEW GUIDE</span>
+                                        <svg width="13px" height="10px" viewBox="0 0 13 10">
+                                            <polyline points="8 1 12 5 8 9"></polyline>
+                                        </svg>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript;:" class="img_more">
+                                        <span>VIEW WEBSITE</span>
+                                        <svg width="13px" height="10px" viewBox="0 0 13 10">
+                                            <polyline points="8 1 12 5 8 9"></polyline>
+                                        </svg>
+                                    </a>
+                                </li>
+                            </ul>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+            
